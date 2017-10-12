@@ -1,5 +1,6 @@
 
 import java.io.*;
+//B1上修改
 import java.util.Random;
 
 import javax.swing.JOptionPane;
