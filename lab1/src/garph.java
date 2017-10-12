@@ -4,7 +4,7 @@ import java.util.Random;
 
 //B1上修改
 //B2上修改
-
+//B2上修改
 public class garph {
 	int  MAX_WEIGHT = Integer.MAX_VALUE/2;
 	static String[] words = new String[100];
