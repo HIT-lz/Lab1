@@ -2,6 +2,7 @@
 import java.io.File;
 public class Proba
 {
+	//B2上修改
   // private static final int MAX_WEIGHT = 0;
 public static void main(String[] args)
    {

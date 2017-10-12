@@ -1,6 +1,7 @@
 
 import java.io.*;
 import java.util.Random;
+//B2ÉÏÐÞ¸Ä
 public class garph {
 	int  MAX_WEIGHT = Integer.MAX_VALUE/2;
 	static String[] words = new String[100];

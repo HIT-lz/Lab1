@@ -1,6 +1,7 @@
 
 //package lab1;
 import java.io.BufferedReader;
+//B2иопч╦д
 import java.io.DataInputStream;
 import java.io.File;
 import java.io.FileInputStream;
