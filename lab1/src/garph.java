@@ -6,11 +6,12 @@ public class garph {
 	static String[] words = new String[100];
 	static int edge[][] = new int[100][100];
 	static int  reallen;
-	 int weight_index;
+	int weight_index;
 	public garph() throws IOException
 	{
 		String[] temp;
 		String[] txt = new String[100];
+		System.out.println("make some differrance");
 		FileReader file = new FileReader("C:\\Users\\Administrator\\Desktop\\sentence.txt");
 		BufferedReader input = new BufferedReader(file);
 		String line = null;
