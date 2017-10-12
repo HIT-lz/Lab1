@@ -1,7 +1,7 @@
 
 import java.io.*;
 import java.util.Random;
-
+	//C4上修改
 import javax.swing.JOptionPane;
 
 public class word

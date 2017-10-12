@@ -2,6 +2,7 @@
 import java.io.*;
 import java.util.Random;
 public class garph {
+	//C4ÉÏÐÞ¸Ä
 	int  MAX_WEIGHT = Integer.MAX_VALUE/2;
 	static String[] words = new String[100];
 	static int edge[][] = new int[100][100];
