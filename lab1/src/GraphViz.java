@@ -80,9 +80,6 @@ public class GraphViz
 /**
     * Adds a string to the graph's source (with newline).
     */
-   
-   
-   
    public void addln(String line) {
       graph.append(line + "\n");
    }
