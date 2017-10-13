@@ -53,6 +53,8 @@ public class garph {
 				edge[j][k]++;
 			}
 		}
+		
+		
 		for (i = 0 ; i < reallen ;i++) {
 			System.out.printf("%15s",words[i]+"  ");
 			for (j = 0 ; j < reallen ; j++)

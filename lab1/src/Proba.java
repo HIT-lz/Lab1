@@ -33,11 +33,18 @@ public static void main(String[] args)
       }
    
       
+
       //gv.addln("A -> C;");
       
 	  
 	  
 	  gv.addln(gv.end_graph());
+
+      
+	  
+	  //gv.addln("A -> C;");
+      gv.addln(gv.end_graph());
+
       System.out.println(gv.getDotSource());
      
       
