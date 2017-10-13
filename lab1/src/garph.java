@@ -37,6 +37,9 @@ public class garph {
 		index = 0;
 		words[index] = txt[0];
 		index++;
+		
+		
+		
 		for(i = 1 ; i < len ; i++)
 		{
 			if(match(words,txt[i]) == -1)   //无重复出现

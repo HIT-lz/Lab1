@@ -22,6 +22,9 @@ public class word
 		{
 		choice = Integer.parseInt(JOptionPane.showInputDialog("Please choose the function(1:showDirectedGraph;2:queryBridgeWords;3:generateNewText"
 				+"4:calcShortestPath;5:randomWalk;6:exit)"));
+		
+		
+		
 		switch (choice)
 		{
 		 	case 1:
