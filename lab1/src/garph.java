@@ -28,10 +28,6 @@ public class garph {
 			}
 		}
 		
-		
-		
-		
-		
 		reallen = index;
 		len = index;
 		index = 0;

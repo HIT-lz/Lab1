@@ -7,6 +7,11 @@ import javax.swing.JOptionPane;
 public class word
  {
 	
+	
+	
+	
+	
+	
 	public static void main(String[] args) throws IOException
 	{
 		garph G = new garph();
