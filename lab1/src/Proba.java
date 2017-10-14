@@ -13,10 +13,13 @@ public static void main(String[] args)
     * Construct a DOT graph in memory, convert it
     * to image and store the image in the file system.
     */
+<<<<<<< HEAD
    
    
    
    
+=======
+>>>>>>> test/master
    public void showDirectedGraph(garph G)
    {
       GraphViz gv = new GraphViz();
@@ -34,6 +37,7 @@ public static void main(String[] args)
    
       
 
+
       //gv.addln("A -> C;");
       
 	  
@@ -43,6 +47,10 @@ public static void main(String[] args)
       
 	  
 	  //gv.addln("A -> C;");
+      gv.addln(gv.end_graph());
+
+
+      //gv.addln("A -> C;");
       gv.addln(gv.end_graph());
 
       System.out.println(gv.getDotSource());

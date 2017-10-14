@@ -6,12 +6,21 @@ public class garph {
 	static String[] words = new String[100];
 	static int edge[][] = new int[100][100];
 	static int  reallen;
+
 	 int weight_index;
+
+	int weight_index;
+
 	public garph() throws IOException
 	{
 		String[] temp;
 		String[] txt = new String[100];
+
 		FileReader file = new FileReader("C:\\Users\\lenovo\\Desktop\\sentence.txt");
+
+		System.out.println("make some differrance");
+		FileReader file = new FileReader("C:\\Users\\Administrator\\Desktop\\sentence.txt");
+
 		BufferedReader input = new BufferedReader(file);
 		String line = null;
 		int index = 0, i, j, k, len;
@@ -27,15 +36,16 @@ public class garph {
 				}
 			}
 		}
+
 		
+
+
 		reallen = index;
 		len = index;
 		index = 0;
 		words[index] = txt[0];
 		index++;
-		
-		
-		
+
 		for(i = 1 ; i < len ; i++)
 		{
 			if(match(words,txt[i]) == -1)   //无重复出现
@@ -53,8 +63,7 @@ public class garph {
 				edge[j][k]++;
 			}
 		}
-		
-		
+
 		for (i = 0 ; i < reallen ;i++) {
 			System.out.printf("%15s",words[i]+"  ");
 			for (j = 0 ; j < reallen ; j++)
