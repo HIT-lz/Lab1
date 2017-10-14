@@ -63,6 +63,9 @@ public class garph {
 		input.close();
 	}
 	//返回字符串在字符串数组的位置
+	
+	
+	
 	static int match(String[] Template, String Substr) throws IOException
 	{
 		int i;

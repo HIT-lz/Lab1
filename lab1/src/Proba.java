@@ -32,8 +32,6 @@ public static void main(String[] args)
       //gv.addln("A -> C;");
       gv.addln(gv.end_graph());
       System.out.println(gv.getDotSource());
-     
-      
  //     String type = "gif";
 //      String type = "dot";
 //      String type = "fig";    // open with xfig
