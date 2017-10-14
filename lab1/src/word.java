@@ -1,7 +1,9 @@
 
 import java.io.*;
+//B1上修改
 import java.util.Random;
 
+//B2上修改
 import javax.swing.JOptionPane;
 
 public class word
