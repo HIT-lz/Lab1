@@ -343,6 +343,9 @@ public class garph {
 		}
 		return text;
 	}
+	
+	
+	
 	public void noteDirectedGraph(garph G,String wor1,String word2,String word3) throws IOException
 	   {
 	     String [] notepath; 

@@ -42,7 +42,10 @@ import java.io.InputStreamReader;
  * @version v0.1, 2003/12/04 (December) -- first release
  * @author  Laszlo Szathmary (<a href="jabba.laci@gmail.com">jabba.laci@gmail.com</a>)
  */
-public class GraphViz
+
+ 
+ 
+ public class GraphViz
 {
    /**
     * The dir. where temporary files will be created.
